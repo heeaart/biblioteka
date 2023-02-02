@@ -3,6 +3,14 @@ import java.util.Objects;
 public class Ksiazka {
     private String tytul;
     private Autor autor;
+public  static String strink(){
+    String tyt="";
+    while (tyt.isEmpty()){
+        tyt = Main.scanner.nextLine();
+
+    }
+    return tyt;
+}
 
     public Ksiazka(String tytul, Autor autor) {
         this.tytul = tytul;
